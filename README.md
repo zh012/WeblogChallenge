@@ -16,23 +16,12 @@ The challenge is to make make analytical observations about the data using the d
 
 
 
-###Tools allowed (in no particular order):
-- Spark (any language, but prefer Scala)
-- Pig
-- MapReduce (Hadoop 2.x only)
-- Flink
-- Cascading, Cascalog, or Scalding
-- Hive
-If you need Hadoop, we suggest 
-HDP Sandbox:
-http://hortonworks.com/hdp/downloads/
-or 
-CDH QuickStart VM:
-http://www.cloudera.com/content/cloudera/en/downloads.html
+###Tools allowed
+-Core Java/Scala
 
 
 ###Additional notes:
-- You are allowed to use whatever libraries/parsers/solutions you can find provided you can explain the functions you are implementing in detail.
+- You are strongly encouraged to use Akka or any other libraries you think appropriate.
 - IP addresses do not guarantee distinct users, but this is the limitation of the data. As a bonus, consider what additional data would help make better analytical conclusions
 - For this dataset, complete the sessionization by time window rather than navigation. Feel free to determine the best session window time on your own, or start with 15 minutes.
 - The log file was taken from an AWS Elastic Load Balancer:
@@ -54,7 +43,9 @@ D. Complete your work in your own github repo and send the results to us and/or 
 ##What are we looking for? What does this prove?
 
 We want to see how you handle:
-- New technologies and frameworks
+- Engineering practice
 - Messy (ie real) data
-- Understanding data transformation
+- Understanding java/scala/computer science fundamentals 
+- The code will be assessed on a balance between efficiency, readability and good design. 
+
 This is not a pass or fail test, we want to hear about your challenges and your successes with this particular problem.
